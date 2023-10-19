@@ -1,6 +1,6 @@
 import cv2
 import os
-
+#connect through rtsp
 cap = cv2.VideoCapture('rtsp://USERNAME:PASSWORD@CAM_IP/live')
 
 if not cap.isOpened():
